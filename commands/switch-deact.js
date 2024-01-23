@@ -11,10 +11,11 @@
 
  const { sck,sck1,cmd, getAdmin, tlang, prefix } = require('../lib')
  const Config = require('../config')
- 
+  
      //---------------------------------------------------------------------------
  cmd({
          pattern: "deact",
+  alias : ['deactive','deactivate'],
          desc: "Switches for varios works.",
          category: "group",
          filename: __filename
@@ -29,7 +30,8 @@
          //-----------------------------------------  
          if (!citel.isGroup) return citel.reply("This feature in only for Group.")
          if (!text) return citel.reply(`❌ Please provide me term like like\n1-events\n2-antilink\n3-nsfw\n4-cardgame\n5-bot`)
-         if (!isAdmins) return citel.reply("❌ This Command is only for Admin")
+         if (isCreator){console.log("this is a Bot Number in Deact Functions")}
+        else if (!isAdmins) return citel.reply("❌ This command is only for admin")
          switch (text.split(" ")[0]) {
             case 'antilink':
                 {

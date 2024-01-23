@@ -9,9 +9,10 @@
  * @version 0.0.6
  **/
 
-const { dare, truth, random_question } = require('../lib/truth-dare.js')
+const { dare, truth, random_question ,Config } = require('../lib/truth-dare.js')
 const axios = require('axios')
 const { cmd } = require('../lib')
+const fetch = require('node-fetch');
     //---------------------------------------------------------------------------
 cmd({
             pattern: "question",
@@ -45,7 +46,41 @@ cmd({
             return await citel.reply(`${dare()}`);
         }
     )
-    //---------------------------------------------------------------------------
+//--------------------------------------------------------------------------------
+cmd({
+            pattern: "joke",
+            desc: "Sends Joke in chat.",
+            category: "fun",
+            filename: __filename,
+        },
+        async(Void, citel, text) => { 
+
+const response =await  fetch('https://official-joke-api.appspot.com/random_joke');
+  const joke= await response.json();
+citel.reply( `Joke: ${joke.setup}\nPunchline :  ${joke.punchline}`);
+
+})
+//---------------------------------------------------------------------------
+cmd({
+            pattern: "joke2",
+            desc: "Sends Joke in chat.",
+            category: "fun",
+            filename: __filename,
+        },
+        async(Void, citel, text) => { 
+ 
+         fetch('https://v2.jokeapi.dev/joke/Any?type=single')
+         .then(response => response.json())
+         .then(data => {
+         citel.reply(`*joke :* ${data.joke}`); 
+  })
+  .catch(error => {
+     return citel.reply ('Error fetching joke:' + error);
+  });
+        }
+    )
+
+//---------------------------------------------------------------------------
 cmd({
         pattern: "fact",
         desc: "Sends fact in chat.",
@@ -54,7 +89,7 @@ cmd({
     },
     async(Void, citel, text) => {
         const { data } = await axios.get(`https://nekos.life/api/v2/fact`)
-        return citel.reply(`*Fact:* ${data.fact}\n\n*Powered by Secktor*`)   
+        return citel.reply(`*Fact:* ${data.fact}`)   
     }
 
 )
@@ -71,11 +106,11 @@ cmd({
 ╔════◇
 ║ *🎗️Content:* ${quoo.data.quote.body}
 ║ *👤Author:* ${quoo.data.quote.author}
-║    
+║  
 ╚════════════╝ `
 return citel.reply(replyf)
     }
-
+ 
 )
     //---------------------------------------------------------------------------
     cmd({

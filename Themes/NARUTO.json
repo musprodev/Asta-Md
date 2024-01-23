@@ -4,7 +4,7 @@
   "theme": "Naruto-Uzumaki",
   "LANGUAGE": "English",
   "LANGCODE": "en",
-  "STRINGS": {
+  "STRINGS": { 
       "updater": {
           "UPDATE": "*Believe it.\nYour bot is already up-to-date*",
           "NEW_UPDATE": "*it's time to update the bot!*\n\n*Changes:*\n",

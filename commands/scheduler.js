@@ -53,7 +53,7 @@ async(Void, citel, text,{ isCreator }) => {
                 return citel.reply(`_Unmute updated for ${text} successfully._`)
                 
             }      
-}
+} 
 )
  //--------------------------------------------------------------------------------
  cmd({

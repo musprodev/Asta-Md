@@ -4,7 +4,7 @@
   "theme": "Ayanokji-kiyotaka",
   "LANGUAGE": "English",
   "LANGCODE": "en",
-  "STRINGS": {
+  "STRINGS": { 
       "updater": {
           "UPDATE": "*I don’t like expending more effort than I have to.\nYour bot is already up-to-date*",
           "NEW_UPDATE": "*There is a new update available for the bot!*\n\n*Changes:*\n",

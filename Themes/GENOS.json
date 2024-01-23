@@ -3,7 +3,7 @@
     "AUTHOR": "SamPandey001",
     "LANGUAGE": "English",
     "LANGCODE": "en",
-    "STRINGS": {
+    "STRINGS": { 
         "updater": {
             "UPDATE": "*Your bot is already on latest version Master*",
             "NEW_UPDATE": "*There is a new update available for the bot!*\n\n*Changes:*\n",
