@@ -529,7 +529,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.erdwpe.com/api/maker/attp?text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'Asta_Md',author:'ASTRO'},"sticker") 
 
 }
 
@@ -553,7 +553,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/attp?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'Asta_Md',author:'ASTRO'},"sticker") 
 
 }
 
@@ -577,7 +577,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/attp2?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'Asta_Md',author:'ASTRO'},"sticker") 
 
 }
 
@@ -601,7 +601,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'Asta_Md',author:'ASTRO'},"sticker") 
 
 }
 
@@ -625,7 +625,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp2?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'Asta_Md',author:'ASTRO'},"sticker") 
 
 }
 
@@ -649,7 +649,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp3?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'Asta_Md',author:'ASTRO'},"sticker") 
 
 }
 
@@ -673,7 +673,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp5?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'Asta_Md',author:'ASTRO'},"sticker") 
 
 }
 
@@ -697,7 +697,7 @@ async(Void, citel, text) => {
 
 let a = await getBuffer(`https://api.lolhuman.xyz/api/ttp6?apikey=GataDios&text=${text}`)
 
-return citel.reply(a,{packname:'SIGMA_MD',author:'ZUBI'},"sticker") 
+return citel.reply(a,{packname:'Asta_Md',author:'ASTRO'},"sticker") 
 
 }
 

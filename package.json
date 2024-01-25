@@ -1,6 +1,6 @@
 {
           "name": "Asta-Md",
-          "version": "1.2.7",
+          "version": "4.5.0",
           "description": "Asta-Md A Whatsapp Bot By Astro",
           "main": "lib/client.js",
           "type": "commonjs",

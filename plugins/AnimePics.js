@@ -313,7 +313,7 @@ async(Void, man,text) =>
 {
     let anu = await fetchJson('https://raw.githubusercontent.com/Maher-Zubair/SIGMA-MD/main/Media/Videos/Tik_Videos.json')
     let random = anu[Math.floor(Math.random() * anu.length)]
-    return await Void.sendMessage(man.chat,{video :{url : random.SIGMA_MD } , caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${sigma_config.botname}*`,width: 600,height: 490  }, { quoted: man })
+    return await Void.sendMessage(man.chat,{video :{url : random.Asta_Md } , caption: `*╰┈➤ 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ${sigma_config.botname}*`,width: 600,height: 490  }, { quoted: man })
 })
 //-----------------------------------------------------------------------------
 Module_Exports({
