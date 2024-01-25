@@ -1,5 +1,5 @@
-while true
+while true 
 do
-echo "Starting Secktor-Md..."
+echo "Starting Asta-Md..."
 node lib/client.js
 done
