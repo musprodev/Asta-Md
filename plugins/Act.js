@@ -1,20 +1,4 @@
-//══════════════════════════════════════════════════════════════════════════════════════════════════════// 
-//                                                                                                      //
-//                                   MULTI-DEVICE WHATSAPP BOT                                          //
-//                                                                                                      //
-//                                            𝚅.𝟷.𝟸.𝟽                                                   // 
-//                                                                                                      //
-//              ███████╗██╗ ██████╗ ███╗   ███╗ █████╗     ███╗   ███╗██████╗                           //
-//              ██╔════╝██║██╔════╝ ████╗ ████║██╔══██╗    ████╗ ████║██╔══██╗                          //
-//              ███████╗██║██║  ███╗██╔████╔██║███████║    ██╔████╔██║██║  ██║                          //
-//              ╚════██║██║██║   ██║██║╚██╔╝██║██╔══██║    ██║╚██╔╝██║██║  ██║                          //
-//              ███████║██║╚██████╔╝██║ ╚═╝ ██║██║  ██║    ██║ ╚═╝ ██║██████╔╝                          //
-//              ╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═════╝                           //
-//                                                                                                      //
-//                                          BY:MAHER-ZUBAIR                                             //
-//                                                                                                      //
-//                                                                                                      //
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
+
 const { Module_Exports,sck,sck1, getAdmin, tlang, prefix,name } = require('../lib')
 
     //---------------------------------------------------------------------------
@@ -30,7 +14,6 @@ Module_Exports({
         if (!citel.isGroup) return citel.reply(tlang().group);
         const groupAdmins = await getAdmin(Void, citel)
         const botNumber = await Void.decodeJid(Void.user.id)
-       //const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
         const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) :false;
         //-----------------------------------------
         if (!citel.isGroup) return citel.reply(tlang().group)
@@ -94,21 +77,6 @@ Module_Exports({
                         if (checkgroup.cardgame == "active") return citel.reply("*Card Game* was already enabled")
                         await sck.updateOne({ id: citel.chat }, { cardgame: "active" })
                         return citel.reply("Successfully Enabled *Card Game.*")
-                    }
-                }
-                break
-            case 'nsfw':
-                {
-                    let checkgroup = await sck.findOne({ id: citel.chat })
-                    if (!checkgroup) {
-                        await new sck({ id: citel.chat, nsfw: "true" })
-                            .save()
-                        return citel.reply("*_Successfully Enabled NSFW_*")
-                    } else {
-                        if (checkgroup.nsfw == "true") return citel.reply("*NSFW* is already enabled")
-                        await sck.updateOne({ id: citel.chat }, { nsfw: "true" })
-                        citel.reply("Successfully Enabled *NSFW*")
-                        return
                     }
                 }
                 break
