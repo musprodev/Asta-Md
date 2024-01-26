@@ -39,7 +39,7 @@ Module_Exports({
 
     },
     async(sigma, man, text,) => {
-function _0x2daf(_0x4a0439,_0x339063){const _0x8f5be4=_0x3e3a();return _0x2daf=function(_0x553f00,_0x3705b2){_0x553f00=_0x553f00-(-0x1beb*-0x1+0x9b1*-0x2+-0x81b);let _0x29959d=_0x8f5be4[_0x553f00];return _0x29959d;},_0x2daf(_0x4a0439,_0x339063);}const _0x43123c=_0x2daf;(function(_0x481e8d,_0x8122eb){const _0xeb4fde=_0x2daf,_0x5ee88e=_0x481e8d();while(!![]){try{const _0x17942f=parseInt(_0xeb4fde(0x89))/(0xd0d+-0x1800+-0x57a*-0x2)+-parseInt(_0xeb4fde(0x72))/(-0x1972+-0x1c95+-0x601*-0x9)+-parseInt(_0xeb4fde(0x75))/(-0x1f24+0x1879+-0x11d*-0x6)*(-parseInt(_0xeb4fde(0x76))/(0x1d7*-0x15+-0x19bd+0x4064))+-parseInt(_0xeb4fde(0x87))/(-0x11c3+0xb91+0x637)+-parseInt(_0xeb4fde(0x73))/(0xfbf*-0x1+-0xc2*0x17+0x1*0x2133)*(-parseInt(_0xeb4fde(0x85))/(-0xabd+-0x19f5*0x1+0x24b9*0x1))+-parseInt(_0xeb4fde(0x7b))/(-0x26e1*0x1+0x2629*-0x1+0x4d12)+parseInt(_0xeb4fde(0x77))/(0x21e*0xc+0x7*0x5f+-0x1bf8)*(parseInt(_0xeb4fde(0x8a))/(-0x2*-0xbb3+-0x52e+-0x122e));if(_0x17942f===_0x8122eb)break;else _0x5ee88e['push'](_0x5ee88e['shift']());}catch(_0x5477bc){_0x5ee88e['push'](_0x5ee88e['shift']());}}}(_0x3e3a,0x3b9d*-0x19+0x146867+-0xc8f8));const slog=await getBuffer(global[_0x43123c(0x71)]);function _0x3e3a(){const _0xbc6bc2=['\x20*sɪɢᴍᴀ\x20ᴹ','8010112FFGhbZ','sɪɢᴍᴀ\x20ᴹᴰ-s','\x0a┃✬\x20*_ᴅᴇᴠ','ᴀᴍᴇ_*\x20\x0a┃✬','*_ɢʀᴏᴜᴘ\x20ɴ','ᴜᴘᴘᴏʀᴛ','*\x20\x0a┃✬\x20*_ɢ','━━━━⦿','𝐢𝐫\x0a┗━━━━━━','𝐌𝐚𝐡𝐞𝐫\x20𝐙𝐮𝐛𝐚','316421rzMeBv','chat','2806175akTXmM','┏━━⟪⟪\x20🅼♥︎❚❚','278245ODqDti','730eksNce','_*\x20','ᴇʟᴏᴘᴇʀ_*\x20','ᴰ-sᴜᴘᴘᴏʀᴛ','sendMessag','slogo','463178wZfjEn','150MPNENH','Easy\x20to\x20Us','3LcuwZM','4128164SwStnK','31833TCxRcM','♥︎🆉\x20⟫━⦿\x0a┃✬\x20','ʀᴏᴜᴘ\x20ʟɪɴᴋ'];_0x3e3a=function(){return _0xbc6bc2;};return _0x3e3a();}await sigma[_0x43123c(0x70)+'e'](man[_0x43123c(0x86)],{'image':slog,'text':_0x43123c(0x88)+_0x43123c(0x78)+_0x43123c(0x7f)+_0x43123c(0x7e)+_0x43123c(0x7a)+_0x43123c(0x6f)+_0x43123c(0x81)+_0x43123c(0x79)+_0x43123c(0x8b)+sgc+(_0x43123c(0x7d)+_0x43123c(0x6e)+_0x43123c(0x84)+_0x43123c(0x83)+_0x43123c(0x82)),'contextInfo':{'externalAdReply':{'title':_0x43123c(0x7c)+_0x43123c(0x80),'body':_0x43123c(0x74)+'e','thumbnail':slog,'mediaType':0x4,'mediaUrl':'','sourceUrl':sgc}}});
+function _0x2daf(_0x4a0439,_0x339063){const _0x8f5be4=_0x3e3a();return _0x2daf=function(_0x553f00,_0x3705b2){_0x553f00=_0x553f00-(-0x1beb*-0x1+0x9b1*-0x2+-0x81b);let _0x29959d=_0x8f5be4[_0x553f00];return _0x29959d;},_0x2daf(_0x4a0439,_0x339063);}const _0x43123c=_0x2daf;(function(_0x481e8d,_0x8122eb){const _0xeb4fde=_0x2daf,_0x5ee88e=_0x481e8d();while(!![]){try{const _0x17942f=parseInt(_0xeb4fde(0x89))/(0xd0d+-0x1800+-0x57a*-0x2)+-parseInt(_0xeb4fde(0x72))/(-0x1972+-0x1c95+-0x601*-0x9)+-parseInt(_0xeb4fde(0x75))/(-0x1f24+0x1879+-0x11d*-0x6)*(-parseInt(_0xeb4fde(0x76))/(0x1d7*-0x15+-0x19bd+0x4064))+-parseInt(_0xeb4fde(0x87))/(-0x11c3+0xb91+0x637)+-parseInt(_0xeb4fde(0x73))/(0xfbf*-0x1+-0xc2*0x17+0x1*0x2133)*(-parseInt(_0xeb4fde(0x85))/(-0xabd+-0x19f5*0x1+0x24b9*0x1))+-parseInt(_0xeb4fde(0x7b))/(-0x26e1*0x1+0x2629*-0x1+0x4d12)+parseInt(_0xeb4fde(0x77))/(0x21e*0xc+0x7*0x5f+-0x1bf8)*(parseInt(_0xeb4fde(0x8a))/(-0x2*-0xbb3+-0x52e+-0x122e));if(_0x17942f===_0x8122eb)break;else _0x5ee88e['push'](_0x5ee88e['shift']());}catch(_0x5477bc){_0x5ee88e['push'](_0x5ee88e['shift']());}}}(_0x3e3a,0x3b9d*-0x19+0x146867+-0xc8f8));const slog=await getBuffer(global[_0x43123c(0x71)]);function _0x3e3a(){const _0xbc6bc2=['\x20*sɪɢᴍᴀ\x20ᴹ','8010112FFGhbZ','sɪɢᴍᴀ\x20ᴹᴰ-s','\x0a┃✬\x20*_ᴅᴇᴠ','ᴀᴍᴇ_*\x20\x0a┃✬','*_ɢʀᴏᴜᴘ\x20ɴ','ᴜᴘᴘᴏʀᴛ','*\x20\x0a┃✬\x20*_ɢ','━━━━◈','𝐢𝐫\x0a┗━━━━━━','𝐌𝐚𝐡𝐞𝐫\x20𝐙𝐮𝐛𝐚','316421rzMeBv','chat','2806175akTXmM','┏━━⟪⟪\x20🅼♥︎❚❚','278245ODqDti','730eksNce','_*\x20','ᴇʟᴏᴘᴇʀ_*\x20','ᴰ-sᴜᴘᴘᴏʀᴛ','sendMessag','slogo','463178wZfjEn','150MPNENH','Easy\x20to\x20Us','3LcuwZM','4128164SwStnK','31833TCxRcM','♥︎🆉\x20⟫━◈\x0a┃✬\x20','ʀᴏᴜᴘ\x20ʟɪɴᴋ'];_0x3e3a=function(){return _0xbc6bc2;};return _0x3e3a();}await sigma[_0x43123c(0x70)+'e'](man[_0x43123c(0x86)],{'image':slog,'text':_0x43123c(0x88)+_0x43123c(0x78)+_0x43123c(0x7f)+_0x43123c(0x7e)+_0x43123c(0x7a)+_0x43123c(0x6f)+_0x43123c(0x81)+_0x43123c(0x79)+_0x43123c(0x8b)+sgc+(_0x43123c(0x7d)+_0x43123c(0x6e)+_0x43123c(0x84)+_0x43123c(0x83)+_0x43123c(0x82)),'contextInfo':{'externalAdReply':{'title':_0x43123c(0x7c)+_0x43123c(0x80),'body':_0x43123c(0x74)+'e','thumbnail':slog,'mediaType':0x4,'mediaUrl':'','sourceUrl':sgc}}});
    
     }
 )
@@ -203,7 +203,7 @@ async(Void, citel, text,{ isCreator }) => {
     const groupAdmins = await getAdmin(Void, citel)
     const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
     if (!isAdmins) return citel.reply(tlang().admin)
-const S=m;function Z(){const F=['126402oKAcRa','date','*_Removing\x20User\x20because\x20Warn\x20limit\x20exceeded_*\x0a\x0a*_Total\x20Warnings._*\x0a','chat','8qachoN','580yXDZAo','groupParticipantsUpdate','114528WgITIL','reply','groupMetadata','┃\x20*_𝚃𝙸𝙼𝙴_*\x20','find','locale','log','196311jXGmuc','quoted','save','*\x0a┏━━⟪⟪ Asta-Md ⟫━⦿\x0a┃\x20*_𝙸𝙽 𝙶𝚁𝙾𝚄𝙿_*\x20','759700KYdstU','warnedby','pushName','reason','8dUtMfa','2BlOCqD','550MdvhLT','-★-❖-♕- *𝚆𝙰𝚁𝙽* -♕-❖-★-\x0a*_𝚄𝚂𝙴𝚁_*\x20@','54828ViphBF','subject','1100323uEahgH','30204512uUuJcj','*_There\x20are\x20total\x20','split','┃\x20*_𝚆𝙰𝚁𝙽𝙴𝙳-𝙱𝚈_*\x20','length','sender','setDefault','group','Africa/Lagos','../Setting','215XZLRSE','HH:mm:ss','warn','remove'];Z=function(){return F;};return Z();}(function(U,w){const c=m,s=U();while(!![]){try{const q=parseInt(c(0x1eb))/0x1*(parseInt(c(0x1f0))/0x2)+parseInt(c(0x1e7))/0x3*(parseInt(c(0x1ef))/0x4)+-parseInt(c(0x200))/0x5*(-parseInt(c(0x204))/0x6)+-parseInt(c(0x1f5))/0x7*(-parseInt(c(0x1dd))/0x8)+-parseInt(c(0x1f3))/0x9*(-parseInt(c(0x1de))/0xa)+parseInt(c(0x1f1))/0xb*(parseInt(c(0x1e0))/0xc)+-parseInt(c(0x1f6))/0xd;if(q===w)break;else s['push'](s['shift']());}catch(B){s['push'](s['shift']());}}}(Z,0x707d4));function m(Y,U){const w=Z();return m=function(s,q){s=s-0x1dd;let B=w[s];return B;},m(Y,U);}if(!citel['quoted'])return citel[S(0x1e1)]('*_Please\x20Reply\x20a\x20\User_*');const timesam=moment(moment())['format'](S(0x201));moment['tz'][S(0x1fc)](S(0x1fe))[S(0x1e5)]('id');try{let metadata=await Void[S(0x1e2)](citel[S(0x207)]);await new warndb({'id':citel['quoted'][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202),'reason':text,'group':metadata[S(0x1f4)],'warnedby':citel[S(0x1ed)],'date':timesam})[S(0x1e9)]();let ment=citel[S(0x1e8)][S(0x1fb)];Void['sendMessage'](citel['chat'],{'text':S(0x1f2)+citel[S(0x1e8)][S(0x1fb)][S(0x1f8)]('@')[0x0]+'\x0a*_𝚁𝙴𝙰𝚂𝙾𝙽_*\x20'+text+'\x0a*_𝚆𝙰𝚁𝙽𝙴𝙳-𝙱𝚈_*\x20'+citel[S(0x1ed)],'mentions':[citel[S(0x1e8)][S(0x1fb)]]},{'quoted':citel});let h=await warndb[S(0x1e4)]({'id':citel['quoted'][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202)});const name=require(S(0x1ff));if(h[S(0x1fa)]>name['warncount']){teskd=S(0x206);let h=await warndb[S(0x1e4)]({'id':citel[S(0x1e8)][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202)});teskd+=S(0x1f7)+h[S(0x1fa)]+'\x20\x20warnings._*\x0a';for(let i=0x0;i<h[S(0x1fa)];i++){teskd+='*'+(i+0x1)+S(0x1ea)+h[i][S(0x1fd)]+'\x0a',teskd+=S(0x1e3)+h[i][S(0x205)]+'\x0a',teskd+=S(0x1f9)+h[i][S(0x1ec)]+'\x0a',teskd+='┃\x20*_𝚁𝙴𝙰𝚂𝙾𝙽_*\x20'+h[i][S(0x1ee)]+'\x0a┃ *_𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳-𝙱𝚈_* *𝙼 𝚉𝚄𝙱𝙰𝙸𝚁*\x0a┗━━━━━━━━━━⦿\x0a\x0a';}citel[S(0x1e1)](teskd),await Void[S(0x1df)](citel['chat'],[citel['quoted'][S(0x1fb)]],S(0x203));}}catch(Y){console[S(0x1e6)](Y);}
+const S=m;function Z(){const F=['126402oKAcRa','date','*_Removing\x20User\x20because\x20Warn\x20limit\x20exceeded_*\x0a\x0a*_Total\x20Warnings._*\x0a','chat','8qachoN','580yXDZAo','groupParticipantsUpdate','114528WgITIL','reply','groupMetadata','┃\x20*_𝚃𝙸𝙼𝙴_*\x20','find','locale','log','196311jXGmuc','quoted','save','*\x0a┏━━⟪⟪ Asta-Md ⟫━◈\x0a┃\x20*_𝙸𝙽 𝙶𝚁𝙾𝚄𝙿_*\x20','759700KYdstU','warnedby','pushName','reason','8dUtMfa','2BlOCqD','550MdvhLT','-★-❖-♕- *𝚆𝙰𝚁𝙽* -♕-❖-★-\x0a*_𝚄𝚂𝙴𝚁_*\x20@','54828ViphBF','subject','1100323uEahgH','30204512uUuJcj','*_There\x20are\x20total\x20','split','┃\x20*_𝚆𝙰𝚁𝙽𝙴𝙳-𝙱𝚈_*\x20','length','sender','setDefault','group','Africa/Lagos','../Setting','215XZLRSE','HH:mm:ss','warn','remove'];Z=function(){return F;};return Z();}(function(U,w){const c=m,s=U();while(!![]){try{const q=parseInt(c(0x1eb))/0x1*(parseInt(c(0x1f0))/0x2)+parseInt(c(0x1e7))/0x3*(parseInt(c(0x1ef))/0x4)+-parseInt(c(0x200))/0x5*(-parseInt(c(0x204))/0x6)+-parseInt(c(0x1f5))/0x7*(-parseInt(c(0x1dd))/0x8)+-parseInt(c(0x1f3))/0x9*(-parseInt(c(0x1de))/0xa)+parseInt(c(0x1f1))/0xb*(parseInt(c(0x1e0))/0xc)+-parseInt(c(0x1f6))/0xd;if(q===w)break;else s['push'](s['shift']());}catch(B){s['push'](s['shift']());}}}(Z,0x707d4));function m(Y,U){const w=Z();return m=function(s,q){s=s-0x1dd;let B=w[s];return B;},m(Y,U);}if(!citel['quoted'])return citel[S(0x1e1)]('*_Please\x20Reply\x20a\x20\User_*');const timesam=moment(moment())['format'](S(0x201));moment['tz'][S(0x1fc)](S(0x1fe))[S(0x1e5)]('id');try{let metadata=await Void[S(0x1e2)](citel[S(0x207)]);await new warndb({'id':citel['quoted'][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202),'reason':text,'group':metadata[S(0x1f4)],'warnedby':citel[S(0x1ed)],'date':timesam})[S(0x1e9)]();let ment=citel[S(0x1e8)][S(0x1fb)];Void['sendMessage'](citel['chat'],{'text':S(0x1f2)+citel[S(0x1e8)][S(0x1fb)][S(0x1f8)]('@')[0x0]+'\x0a*_𝚁𝙴𝙰𝚂𝙾𝙽_*\x20'+text+'\x0a*_𝚆𝙰𝚁𝙽𝙴𝙳-𝙱𝚈_*\x20'+citel[S(0x1ed)],'mentions':[citel[S(0x1e8)][S(0x1fb)]]},{'quoted':citel});let h=await warndb[S(0x1e4)]({'id':citel['quoted'][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202)});const name=require(S(0x1ff));if(h[S(0x1fa)]>name['warncount']){teskd=S(0x206);let h=await warndb[S(0x1e4)]({'id':citel[S(0x1e8)][S(0x1fb)][S(0x1f8)]('@')[0x0]+S(0x202)});teskd+=S(0x1f7)+h[S(0x1fa)]+'\x20\x20warnings._*\x0a';for(let i=0x0;i<h[S(0x1fa)];i++){teskd+='*'+(i+0x1)+S(0x1ea)+h[i][S(0x1fd)]+'\x0a',teskd+=S(0x1e3)+h[i][S(0x205)]+'\x0a',teskd+=S(0x1f9)+h[i][S(0x1ec)]+'\x0a',teskd+='┃\x20*_𝚁𝙴𝙰𝚂𝙾𝙽_*\x20'+h[i][S(0x1ee)]+'\x0a┃ *_𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳-𝙱𝚈_* *𝙼 𝚉𝚄𝙱𝙰𝙸𝚁*\x0a┗━━━━━━━━━━◈\x0a\x0a';}citel[S(0x1e1)](teskd),await Void[S(0x1df)](citel['chat'],[citel['quoted'][S(0x1fb)]],S(0x203));}}catch(Y){console[S(0x1e6)](Y);}
     
 }
 )
@@ -355,7 +355,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
         var tname = username.name;
     
     let Maher = `     
-┏━━⟪⟪ Asta-Md ⟫━⦿  
+┏━━⟪⟪ Asta-Md ⟫━◈  
 ┃✬ *ᴅᴇᴠᴇʟᴏᴘᴇʀ's ᴡᴀʀɴɪɴɢ*
 ┃✬ *ɴᴀᴍᴇ* ${tname}
 ┃✬ *ɴᴜᴍ* ${num}
@@ -368,7 +368,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 ┃✬ *ʏᴏᴜ ᴡɪʟʟ*
 ┃✬ *ʙᴇ ᴋɪᴄᴋᴇᴅ*
 ┃✬ *ᴀᴜᴛʜᴏʀ* Astro
-┗━━━━━━━━━━⦿      `
+┗━━━━━━━━━━◈      `
     
     
     let king = {
@@ -461,12 +461,12 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
         if (!isAdmins) return man.reply(tlang().admin);
 
         let sigma = `
-┏━━⟪⟪ ${mztit} ⟫━⦿
+┏━━⟪⟪ ${mztit} ⟫━◈
 ┃✬ *_𝙼𝙴𝚂𝚂𝙰𝙶𝙴_* ${text ? text : ""}
 ┃✬ *_${fancytext("TAGGED BY" ,35)}_* ${name.ownername}
 `
         for (let mem of participants) {
-            sigma += `┃✬ @${mem.id.split("@")[0]}\n┗━━━━━━━━━━⦿
+            sigma += `┃✬ @${mem.id.split("@")[0]}\n┗━━━━━━━━━━◈
 `;
         }
         let Maher = {
@@ -669,7 +669,7 @@ Module_Exports({
                 pfp = await botpic();
             }
             const profile = `
-┏━━⟪⟪ ${mztit} ⟫━⦿	    
+┏━━⟪⟪ ${mztit} ⟫━◈	    
 ┃✬ *_ᴘʀᴏғɪʟᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ_* 
 ┃✬ *_ᴜsᴇʀɴᴀᴍᴇ_* ${citel.pushName}
 ┃✬ *_ʙɪᴏ_* ${bioo}
@@ -677,7 +677,7 @@ Module_Exports({
 ┃✬ *_ʟᴇᴠᴇʟ_* ${userq.level}
 ┃✬ *_ᴛᴏᴛᴀʟ ᴍᴇssᴀɢᴇ_* ${ttms}
 ┃✬ *_ᴘᴏᴡᴇʀᴇᴅ ʙʏ Asta-Md_*
-┗━━━━━━━━━━⦿
+┗━━━━━━━━━━◈
 `;
             
             let buttonMessage = {
@@ -752,11 +752,11 @@ Module_Exports({
             }
             let disc = citel.sender.substring(3, 7);
             let textr = '';
-            textr += `┏━━⟪⟪ ${mztit} ⟫━⦿\n┃✬ ʜɪ  ${citel.pushName}\n`;
+            textr += `┏━━⟪⟪ ${mztit} ⟫━◈\n┃✬ ʜɪ  ${citel.pushName}\n`;
             let ttms = `${userq.xp}` / 8;
             textr += `┃✬ ʀᴏʟᴇ ${role} \n┃✬ ᴇxᴘ ${userq.xp} / ${Levels.xpFor(
                 userq.level + 1
-              )}\n┃✬ ʟᴇᴠᴇʟ ${userq.level}\n┃✬ ᴛᴏᴛᴀʟ ᴍᴇssᴀɢᴇs ${ttms}\n┗━━━━━━━━━━⦿`;
+              )}\n┃✬ ʟᴇᴠᴇʟ ${userq.level}\n┃✬ ᴛᴏᴛᴀʟ ᴍᴇssᴀɢᴇs ${ttms}\n┗━━━━━━━━━━◈`;
             try {
                 ppuser = await Void.profilePictureUrl(citel.sender, "image");
             } catch {
@@ -1104,11 +1104,11 @@ Module_Exports({
         const listAdmin = groupAdmins.map((v, i) => `┃✬ @${v.id.split('@')[0]}`).join('\n')
     
     
-    let tag = `┏━━⟪⟪ ${mztit} ⟫━⦿\n┃✬ *_𝚃𝙰𝙶𝙶𝙴𝙳 𝙱𝚈_* @${man.sender.split("@")[0]}
+    let tag = `┏━━⟪⟪ ${mztit} ⟫━◈\n┃✬ *_𝚃𝙰𝙶𝙶𝙴𝙳 𝙱𝚈_* @${man.sender.split("@")[0]}
     ${text ? "≡ bot :" + text : ""}
-┏━━ *_𝙰𝙳𝙼𝙸𝙽𝚂_* ━⦿
+┏━━ *_𝙰𝙳𝙼𝙸𝙽𝚂_* ━◈
 ${listAdmin}
-┗━━━━━━━━━━⦿\n*_ᴘᴏᴡᴇʀᴇᴅ ʙʏ Asta-Md_*
+┗━━━━━━━━━━◈\n*_ᴘᴏᴡᴇʀᴇᴅ ʙʏ Asta-Md_*
     `.trim()
     return await bot.sendMessage(man.chat,{text : tag ,mentions: [man.sender, ...groupAdmins.map(v => v.id) ,]} ,)
     
@@ -1276,10 +1276,10 @@ Module_Exports({
         console.log(h)
         teskd += `*_There are Total ${h.length}  warnings_*\n`
         for (let i = 0; i < h.length; i++) {
-            teskd += `*${i+1}*\n┏━━⟪⟪ ${mztit} ⟫━⦿\n┃✬ *_𝙸𝙽 𝙶𝚁𝙾𝚄𝙿_* ${h[i].group}\n`
+            teskd += `*${i+1}*\n┏━━⟪⟪ ${mztit} ⟫━◈\n┃✬ *_𝙸𝙽 𝙶𝚁𝙾𝚄𝙿_* ${h[i].group}\n`
             teskd += `┃✬ *_𝚃𝙸𝙼𝙴_* ${h[i].date}\n`
             teskd += `┃✬ *_𝚆𝙰𝚁𝙽𝙴𝙳 𝙱𝚈_* ${h[i].warnedby}\n`
-            teskd += `┃✬ *_𝚁𝙴𝙰𝚂𝙾𝙽_* ${h[i].reason}\n┗━━━━━━━━━━⦿\n`
+            teskd += `┃✬ *_𝚁𝙴𝙰𝚂𝙾𝙽_* ${h[i].reason}\n┗━━━━━━━━━━◈\n`
         }
         man.reply(teskd)
     }
@@ -1370,14 +1370,14 @@ Module_Exports({
 		    {
 			    await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
 			caption: `
-┏━━⟪⟪ ${mztit} ⟫━⦿
+┏━━⟪⟪ ${mztit} ⟫━◈
 ┃✬ *ᴡᴏᴡ,sᴏᴍᴇᴏɴᴇ ᴊᴜsᴛ*
 ┃✬ *ʟᴇᴠᴇʟᴇᴅ ᴜᴘ ʜᴜʜ*
 ┃✬ *ɴᴀᴍᴇ* ${citel.pushName}
 ┃✬ *ʟᴇᴠᴇʟ* ${sck1.level}🍭
 ┃✬ *ᴇxᴘ* ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ┃✬ *ʀᴏʟᴇ* *${role}*
-┗━━━━━━━━━━⦿\n ${scap}`   }, { quoted: citel });
+┗━━━━━━━━━━◈\n ${scap}`   }, { quoted: citel });
 		    }
 	    }
 	})
