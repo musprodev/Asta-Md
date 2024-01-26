@@ -262,24 +262,6 @@ const { formatp, runtime } = require("../lib");
       catch(e){
         person.send("*_Unknown Error Occured_*")}
 })
- 
-//-------------------------------------------------------------------------
-Module_Exports({
-  kingcmd: "theme",
-  shortcut: ["themes"],
-  infocmd: "To find all themes",
-  kingclass: "general",
-  kingpath: __filename,
-},
-async(bot, man,write,{isCreator}) => {
-
-if(!isCreator) return man.reply(tlang().owner);
-let SIGMA_THEMES=`┏━━⟪⟪ ${mztit} ⟫━⦿ \n┃✗ *ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ*\n┃✗ *ᴛʜᴇᴍᴇs ɪɴ Asta-Md*\n`
-SIGMA_THEMES+=`┃✗ SHELBY\n┃✗ JOKER\n┃✗ PATRICK\n┃✗ Asta_Md\n┃✗ AVENGERS\n┃✗ BTS\n┃✗ ANIME\n┃✗ GOJO\n┃✗ MOMOLAND\n┃✗ ADAM\n┃✗ AYANOKOJI\n┃✗ EDITH\n┃✗ FRIDAY\n┃✗ GENOS\n┃✗ GIDEON\n┃✗ GOKU\n┃✗ LUFFY\n┃✗ NARUTO\n┃✗ NEZUKO\n┃✗ PARKER\n┃✗ ${prefix}setvar THEME:BTS\n┗━━━━━━━━━━⦿`
-return man.reply(SIGMA_THEMES)
-  
-}
-)
 
 //--------------------------------------------------------------------------
 Module_Exports({
@@ -295,6 +277,21 @@ const sigma_male_zubair = require('performance-now')
    let Zubair = `_ʀᴇsᴘᴏɴᴅ ʀᴀᴛᴇ ᴏꜰ_ _${name.botname}_ ɪs:\n ${latensie.toFixed(4)} ᴍs`
        return person.reply(Zubair)
 })
+
+//------------------------------------------------------------------
+Module_Exports ({
+  kingcmd: "edit",
+  infocmd: "edits mesage",
+  kingclass: "tools",
+  use: "",
+},
+ async(sigma, person, {isCreator}) => {
+  await sock.chatModify({
+    pin: true // or `false` to unpin
+  },
+  '123456@s.whatsapp.net')
+ }
+)
 // All These General Commands Are Developed By @Astropeda
 // Whatsapp +2348039607375
 // Usage And CopyRights Are Reserved
