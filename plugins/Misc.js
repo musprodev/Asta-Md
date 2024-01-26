@@ -236,12 +236,12 @@ async(sigma, person, memo) => {
     
     let Maher = `
 ┏━━⟪⟪ ${mztit} ⟫━⦿
-┃✗ *•ᴘᴇʀsᴏɴ's ɪɴғᴏʀᴍᴀᴛɪᴏɴ•*
-┃✗ *•ɴᴀᴍᴇ•* ${tname}
-┃✗ *•ɴᴜᴍ•* ${num}
-┃✗ *•ʙɪᴏ•*  ${bioo}
-┃✗ *•sᴇᴛ-ᴀᴛ•* ${setAt}
-┃✗   *•ᴋᴇᴇᴘ ᴄᴀʟᴍ ᴅᴜᴅᴇ•*
+┃✬ *ᴘᴇʀsᴏɴ's ɪɴғᴏʀᴍᴀᴛɪᴏɴ*
+┃✬ *ɴᴀᴍᴇ* ${tname}
+┃✬ *ɴᴜᴍ* ${num}
+┃✬ *ʙɪᴏ*  ${bioo}
+┃✬ *sᴇᴛ-ᴀᴛ* ${setAt}
+┃✬   *ᴋᴇᴇᴘ ᴄᴀʟᴍ ᴅᴜᴅᴇ*
 ┗━━━━━━━━━━⦿
 `
     let king = {            
@@ -413,7 +413,7 @@ const vcard = 'BEGIN:VCARD\n' +
     async(sigma, person, memo) => {
         if (!memo) return person.reply(`*_Ex: ${prefix}fliptext I am SIGMA Male_*`)
         flipe = memo.split('').reverse().join('')
-        person.reply(`┏━━⟪⟪ ${mztit} ⟫━⦿\n┃✗ \`\`\`  •ᴛᴇxᴛ ғʟɪᴘᴘᴇʀ ᴛᴏᴏʟ•   \`\`\`\n┃✗ *•ɢɪᴠᴇɴ ᴛᴇxᴛ•*\n┃✗ ${memo}\n┃✗ *•ғʟɪᴘᴇᴅ ᴛᴇxᴛ•*\n┃✗ ${flipe}\n┗━━━━━━━━━━⦿`)
+        person.reply(`┏━━⟪⟪ ${mztit} ⟫━⦿\n┃✬ \`\`\`  ᴛᴇxᴛ ғʟɪᴘᴘᴇʀ ᴛᴏᴏʟ   \`\`\`\n┃✬ *ɢɪᴠᴇɴ ᴛᴇxᴛ*\n┃✬ ${memo}\n┃✬ *ғʟɪᴘᴇᴅ ᴛᴇxᴛ*\n┃✬ ${flipe}\n┗━━━━━━━━━━⦿`)
     
     }
     )
