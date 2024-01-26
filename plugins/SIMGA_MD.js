@@ -108,9 +108,9 @@
       let _0x372184 = "┏━━ *〈* " + mztit + " *〉* ━━◈      \n┃✬ *ᴡᴇʟᴄᴏᴍᴇ* " + _0x4be39a.pushName + "\n┃✬ *ʙᴏᴛ-ɴᴀᴍᴇ* " + name.botname + "\n┃✬ *ᴏᴡɴᴇʀ* " + name.ownername + "\n┃✬ *ᴘʀᴇғɪx* 『 *" + prefix + "* 』\n┃✬ *ᴛʜᴇᴍᴇ* " + tlang().theme + "\n┃✬ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n┃✬ *ᴛɪᴍᴇ* " + _0x393cfa + "\n┃✬ *ᴅᴀᴛᴇ* " + _0x20e8d6 + "\n┃✬ *ᴍᴇᴍ* " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n┃✬ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n┃✬ *ᴘʟᴜɢɪɴs* " + _0x3442f9.length + "\n┃✬ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n┃✬ *ᴘʟᴀᴛꜰᴏʀᴍ* ᴍᴀᴄ-ᴏs\n┃✬ *ᴠᴇʀsɪᴏɴ* " + name.VERSION + "\n┗━━━━━━━━━━━◈       \n\n" + sɪɢᴍᴀ_readmore + "\n";
       let _0x33ce6e = false;
       for (const _0x181790 in _0x4357a0) {
-        _0x372184 += "┏━━ *〈* " + fancy18(_0x181790) + " *〉* ━━◈\n";
+        _0x372184 += "┏━━ *〈* *" + fancy18(_0x181790) + "* *〉* ━━◈\n";
         if (_0x364003.toLowerCase() == _0x181790.toLowerCase().trim()) {
-          _0x33ce6e = "┏━━ *〈* " + fancy18(_0x181790) + " *〉* ━━◈\n";
+          _0x33ce6e = "┏━━ *〈* *" + fancy18(_0x181790) + "* *〉* ━━◈\n";
           for (const _0x1811b9 of _0x4357a0[_0x181790]) {
             _0x33ce6e += " " + fancytext(_0x1811b9, 1) + "\n";
           }
