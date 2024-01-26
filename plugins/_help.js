@@ -1,19 +1,12 @@
-
-  const os = require('os')
+ const os = require('os')
   let menus = false
   const moment = require("moment-timezone")
   const fs = require("fs")
-
   let { fancytext, tlang, tiny, runtime, formatp, botpic, getBuffer ,prefix, sck1,name, Module_Exports, fancy18 } = require("../lib");
   const long = String.fromCharCode(8206)
   const sɪɢᴍᴀ_readmore = long.repeat(4001)
   const sɪɢᴍᴀ_speed = require('performance-now')
   const sɪɢᴍᴀ_ᴍᴅ = require('../lib/plugins')
-  
-
-  //------------------------------------------------------------------------------------
-
-
   sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
           kingcmd: "owner",
           infocmd: "to check owner number",
@@ -55,7 +48,6 @@
       fs.readdir(text, (err, files) => {
         if (err) {reject('Error reading directory'); }
         else {
-          //person.reply("Files Here \n "+files.toString())
           resolve(files);
         }
       });
@@ -105,10 +97,10 @@
         timeZone: global.timezone
       }).split(",");
       let _0x979192 = await sck1.countDocuments();
-      let _0x372184 = "❒── *〈* " + mztit + " *〉* ──❒      \n┃ *ᴡᴇʟᴄᴏᴍᴇ* " + _0x4be39a.pushName + "\n┃ *ʙᴏᴛ-ɴᴀᴍᴇ* " + name.botname + "\n┃ *ᴏᴡɴᴇʀ* " + name.ownername + "\n┃ *ᴘʀᴇғɪx* 『 *" + prefix + "* 』\n┃ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n┃✬ *ᴛɪᴍᴇ* " + _0x393cfa + "\n┃ *ᴅᴀᴛᴇ* " + _0x20e8d6 + "\n┃ *ᴍᴇᴍ* " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n┃ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n┃ *ᴘʟᴜɢɪɴs* " + _0x3442f9.length + "\n┃ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n┃ *ᴘʟᴀᴛꜰᴏʀᴍ* ᴍᴀᴄ-ᴏs\n┃ *ᴠᴇʀsɪᴏɴ* " + name.VERSION + "\n◟───────❒    \n";
+      let _0x372184 = "❒── *〈* " + mztit + " *〉* ──❒      \n┃ *ᴡᴇʟᴄᴏᴍᴇ* " + _0x4be39a.pushName + "\n┃ *ʙᴏᴛ-ɴᴀᴍᴇ* " + name.botname + "\n┃ *ᴏᴡɴᴇʀ* " + name.ownername + "\n┃ *ᴘʀᴇғɪx* 『 *" + prefix + "* 』\n┃ *ᴍᴏᴅᴇ* " + name.WORKTYPE + "\n┃✬ *ᴛɪᴍᴇ* " + _0x393cfa + "\n┃ *ᴅᴀᴛᴇ* " + _0x20e8d6 + "\n┃ *ᴍᴇᴍ* " + formatp(os.totalmem() - os.freemem()) + "/" + formatp(os.totalmem()) + "\n┃ *ᴜᴘ-ᴛɪᴍᴇ* " + runtime(process.uptime()) + "\n┃ *ᴘʟᴜɢɪɴs* " + _0x3442f9.length + "\n┃ *sᴘᴇᴇᴅ* " + latensie.toFixed(4) + " ᴍs\n┃ *ᴘʟᴀᴛꜰᴏʀᴍ* ᴍᴀᴄ-ᴏs\n┃ *ᴠᴇʀsɪᴏɴ* " + name.VERSION + "\n────────── ❒    \n";
       let _0x33ce6e = false;
       for (const _0x181790 in _0x4357a0) {
-        _0x372184 += "❒⎯⎯ *〈* *" + tiny(_0x181790) + "* *〉* ⎯⎯❒\n";
+        _0x372184 += "❒ ⎯ *〈* *" + tiny(_0x181790) + "* *〉* ⎯ ❒\n";
         if (_0x364003.toLowerCase() == _0x181790.toLowerCase().trim()) {
           _0x33ce6e = "*〈* *" + tiny(_0x181790) + "* *〉*\n";
           for (const _0x1811b9 of _0x4357a0[_0x181790]) {
@@ -131,7 +123,7 @@
         caption: _0x33ce6e ? _0x33ce6e : _0x372184
       });
     } catch {
-      _0x4be39a.reply("*_Unknown Error Occured,Or May Be Your TimeZone Is In Correct_*");
+      _0x4be39a.reply("*_Error With Client or Low Buffering Speed_*");
     }
   });
   
@@ -169,5 +161,3 @@ sɪɢᴍᴀ_ᴍᴅ.Module_Exports({
 
 
   })
-
-
