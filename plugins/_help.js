@@ -116,6 +116,21 @@
         }
       }
       _0x372184 += " *ᴀsᴛᴀ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ* ";
+     let Maher = {
+            text: sigma,
+            footer: tlang().footer,
+            headerType: 4,
+            contextInfo: {
+                externalAdReply: {
+                    title: `${Gname}`,
+                    body: "Easy to Use",
+                    thumbnail: log0,
+                    mediaType: 4,
+                    mediaUrl: '',
+                    sourceUrl: `${waUrl}`,}}};
+        bot.sendMessage(man.chat, Maher,{mentions: participants.map((a) => a.id), }, {
+            quoted: man,
+       }
       return await _0x3c2b7e.sendMessage(_0x4be39a.chat, {
         image: {
           url: await botpic()
