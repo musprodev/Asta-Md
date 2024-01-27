@@ -466,7 +466,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 ┃✬ *_${fancytext("TAGGED BY" ,35)}_* ${name.ownername}
 `
         for (let mem of participants) {
-            sigma += `┃✬ @${mem.id.split("@")[0]}\n┗━━━━━━━━━━◈
+            sigma += `@${mem.id.split("@")[0]}\n┗━━━━━━━━━━◈
 `;
         }
         let Maher = {
