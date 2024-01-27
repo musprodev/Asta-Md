@@ -446,43 +446,35 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 )
 
     //---------------------------------------------------------------------------
-    Module_Exports({
+    
+Module_Exports({
         kingcmd: "tagall",
-        infocmd: "Tags all user in group.",
+        infocmd: "Tags every person of group.",
         kingclass: "group",
         kingpath: __filename,
     },
-    async(bot, man, text,{ isCreator }) => {
-        if (!man.isGroup) return man.reply(tlang().group);
-        const groupMetadata = man.isGroup ? await bot.groupMetadata(man.chat).catch((e) => {}) : "";
-        const participants = man.isGroup ? await groupMetadata.participants : "";
-        const groupAdmins = await getAdmin(bot, man)
-        const isAdmins = man.isGroup ? groupAdmins.includes(man.sender) : false;
-        if (!isAdmins) return man.reply(tlang().admin);
+    async(Void, citel, text,{ isCreator }) => {
+        if (!citel.isGroup) return citel.reply(tlang().group);
+        const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
+        const participants = citel.isGroup ? await groupMetadata.participants : "";
+        const groupAdmins = await getAdmin(Void, citel)
+        const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
+        if (!isAdmins) return citel.reply(tlang().admin);
 
-        let sigma = `
-┏━━⟪⟪ ${mztit} ⟫━◈
-┃✬ *_𝙼𝙴𝚂𝚂𝙰𝙶𝙴_* ${text ? text : ""}
-┃✬ *_${fancytext("TAGGED BY" ,35)}_* ${name.ownername}
+        let textt = `
+══✪〘   *Tag All*   〙✪══
+
+➲ *Message :* ${text ? text : "blank"}\n\n
+➲ *Author:* ${citel.pushName} 🔖
 `
         for (let mem of participants) {
-            sigma += `@${mem.id.split("@")[0]}\n┗━━━━━━━━━━◈
-`;
+            textt += `📍 @${mem.id.split("@")[0]}\n`;
         }
-        let Maher = {
-            text: sigma,
-            footer: tlang().footer,
-            headerType: 4,
-            contextInfo: {
-                externalAdReply: {
-                    title: `${Gname}`,
-                    body: "Easy to Use",
-                    thumbnail: log0,
-                    mediaType: 4,
-                    mediaUrl: '',
-                    sourceUrl: `${waUrl}`,}}};
-        bot.sendMessage(man.chat, Maher,{mentions: participants.map((a) => a.id), }, {
-            quoted: man,
+        Void.sendMessage(citel.chat, {
+            text: textt,
+            mentions: participants.map((a) => a.id),
+        }, {
+            quoted: citel,
         });
     }
 )
