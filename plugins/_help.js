@@ -104,13 +104,13 @@
         if (_0x364003.toLowerCase() == _0x181790.toLowerCase().trim()) {
           _0x33ce6e = "*〈* *" + tiny(_0x181790) + "* *〉*\n";
           for (const _0x1811b9 of _0x4357a0[_0x181790]) {
-            _0x33ce6e += "✧│▸ " + fancytext(_0x1811b9, 1) + "\n";
+            _0x33ce6e += "◊│▸ " + fancytext(_0x1811b9, 1) + "\n";
           }
           _0x33ce6e += "──────···\n─────────···\n *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Asta* ";
           break;
         } else {
           for (const _0x4c0684 of _0x4357a0[_0x181790]) {
-            _0x372184 += "✧│▸ " + fancytext(_0x4c0684, 1) + "\n";
+            _0x372184 += "◊│▸ " + fancytext(_0x4c0684, 1) + "\n";
           }
           _0x372184 += "──────···\n─────────···\n";
         }
