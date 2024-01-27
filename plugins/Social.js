@@ -3,7 +3,6 @@ const fetch = require('node-fetch');
 const bocil = require('@bochilteam/scraper');
 const cheerio = require('cheerio')
 const axios= require('axios');
-const TikTokScraper = require('tiktok-scraper');
 
 Module_Exports({
     kingcmd: "ydesc",
