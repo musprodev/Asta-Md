@@ -163,7 +163,7 @@ async(sigma, person) => {
 ┃✬ *_sᴘᴇᴇᴅ_* ${latensie.toFixed(4)} ᴍs 
 ┃✬ *_ᴘʟᴀᴛғᴏʀᴍ_* ᴍᴀᴄ-ᴏs
 ┃✬ *_ᴠᴇʀsɪᴏɴ_* ${name.VERSION} 
-┃✬ *_ᴘᴏᴡᴇʀᴇᴅ ʙʏ_* *_sɪɢᴍᴀ ᴹᴰ_*
+┃✬ *_ᴘᴏᴡᴇʀᴇᴅ ʙʏ_* *_Asta-Md_*
 ┗━━━━━━━━━━◈
 `;
   let buttonMessaged = {

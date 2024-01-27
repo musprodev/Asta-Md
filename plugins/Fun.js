@@ -1,5 +1,3 @@
-
-
 const { dare, truth, random_question ,name } = require('../lib/truth-dare.js')
 const axios = require('axios')
 const { Module_Exports,sleep } = require('../lib')
@@ -124,7 +122,50 @@ return man.reply(replyf)
 )
 //------------------------------------------------------------------------
 
-
+cmd({
+    pattern: 'rizz',
+    category: "fun",
+    desc: 'Get a random pickup line',
+    react: '🙈',
+  },
+  async (Void, citel) => {
+    try {
+      let response = await axios.get('https://vinuxd.vercel.app/api/pickup');
+      let data = response.data;
+  
+      if (!data || !data.pickup) {
+        return citel.reply('Unable to retrieve a pickup line. Please try again later.');
+      }
+  
+      let pickupLine = data.pickup;
+  
+      return citel.reply(`*Pickup Line:* ${pickupLine} \n*Thanks to Excel*\n*Visit* https://github.com/excelottah6/IZUKU-MD`);
+    } catch (error) {
+      citel.reply(`Error: ${error.message || error}`);
+    }
+  });
+  //-----------------COPY AND GIVE CREDIT------------------//
+  cmd({
+    pattern: 'insult',
+    desc: 'Get a random insult',
+    category: "fun",
+    react: '🤥',
+  },
+  async (Void, citel) => {
+    try {
+      let response = await axios.get('https://evilinsult.com/generate_insult.php?lang=en&type=json');
+      let data = response.data;
+  
+      if (!data || !data.insult) {
+        return citel.reply('Unable to retrieve an insult. Please try again later.');
+      }
+  
+      let insult = data.insult;
+      return citel.reply(`*Insult:* ${insult} \n*Thanks to Excel*\n*Visit* https://github.com/excelottah6/IZUKU-MD`);
+    } catch (error) {
+      citel.reply(`Error: ${error.message || error}`);
+    }
+  });
 //---------------------------------------------------------------------------
 
 Module_Exports({

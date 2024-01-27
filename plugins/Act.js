@@ -1,6 +1,4 @@
-
 const { Module_Exports,sck,sck1, getAdmin, tlang, prefix,name } = require('../lib')
-
     //---------------------------------------------------------------------------
 Module_Exports({
         kingcmd: "act",

@@ -5,7 +5,7 @@
           "main": "lib/client.js",
           "type": "commonjs",
           "license": "GPL-3.0",
-          "scripts": { 
+          "scripts": {
                     "start": "pm2 start lib/client.js --deep-monitoring --attach --name Asta-Md",
                     "stop": "pm2 stop Asta-Md"
           },
@@ -58,6 +58,7 @@
                     "request": "^2.88.2",
                     "secktor-pack": "latest",
                     "simple-git": "^3.15.1",
+                    "tiktok-scraper": "^1.4.36",
                     "translatte": "^3.0.1",
                     "util": "^0.12.4",
                     "wa-sticker-formatter": "^4.3.2",

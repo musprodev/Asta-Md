@@ -1,7 +1,4 @@
-
-
 const {TelegraPh , bgms  } = require('../lib/')
-
 const ffmpeg = require('fluent-ffmpeg');
 const axios = require('axios')
 const { getBuffer, cmd } = require('../lib/')
@@ -9,10 +6,6 @@ const fs = require('fs-extra');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 const Config = require('../Setting')
- 
-// -------------------------------------------------------------------
-
-
 async function convertAudioToBlackScreenVideo(audioPath, outputPath) {
   try 
   {
@@ -29,7 +22,6 @@ async function convertAudioToBlackScreenVideo(audioPath, outputPath) {
     return {result : true}
   } catch (error) {  console.error('An error occurred:', error); return {result : false }}
 }
-//------------------------------------------------------------------
 cmd({
         kingcmd: "delbgm",
         infocmd: "create paste of text.",
@@ -45,13 +37,7 @@ if (bgmm.bgmArray.has(text)) {
   await bgmm.save();
   return await citel.reply('*Song _'+ text +'_ removed from BGM.*');
 } else { return await citel.reply(`Name _'${text}'_ does not exist in BGM.`);}
-
-  //await citel.reply("bgm Data  : " + bgmm)
-
-
-
 })
-///============================================================================
 cmd({
         kingcmd: "allbgm",
         infocmd: "create paste of text.",
@@ -67,9 +53,7 @@ const {TelegraPh , bgm } = require('../lib/')
      text+=`*${name} :* _${url}_ \n`
     }
 return await citel.reply(text);
-  //await citel.reply("bgm Data  : " + bgmm)
 })
-///============================================================================
 cmd({
         kingcmd: "addbgm",
         infocmd: "create paste of text.",
@@ -101,18 +85,11 @@ if (!path) return await citel.reply("There's an Error While Adding Bgm Song")
  let url = await TelegraPh(path)
   let bgmm= await bgms.findOne({ id:"3" }) || await new bgms({ id:"3"}).save();
  try {
-   //text = text.split(' ')[0];
     bgmm.bgmArray.set(text, url);
     await bgmm.save();
     return await citel.reply(`*_New Song Added in BGM with Name : ${text}_*`);
  } catch (error) { return await citel.reply('Error updating BGM:'+ error); }
-//await citel.reply("bgmm data  :" + bgmm)
-
-
 })
-
-
-
 cmd({ on: "text" }, async (Void,citel,text)=> {
   if(Config.disablepm)
   {

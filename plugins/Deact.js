@@ -1,9 +1,4 @@
-
-
  const { sck,sck1,Module_Exports, getAdmin, tlang,prefix ,name} = require('../lib')
-
-  
-     //---------------------------------------------------------------------------
  Module_Exports({
          kingcmd: "deact",
   shortcut : ['deactive','deactivate'],
@@ -79,21 +74,6 @@
                             if (checkgroup.cardgame == "deactive") return citel.reply("*Card Game* was already disabled")
                             await sck.updateOne({ id: citel.chat }, { cardgame: "deactive" })
                             return citel.reply("Successfully disabled *Card Game.*")
-                        }
-                    }
-                    break
-                case 'nsfw':
-                    {
-                        let checkgroup = await sck.findOne({ id: citel.chat })
-                        if (!checkgroup) {
-                            await new sck({ id: citel.chat, nsfw: "false" })
-                                .save()
-                            return citel.reply("*_Successfully disabled NSFW_*")
-                        } else {
-                            if (checkgroup.nsfw == "false") return citel.reply("*NSFW* is already disabled")
-                            await sck.updateOne({ id: citel.chat }, { nsfw: "false" })
-                            citel.reply("*_Successfully disabled NSFW_*")
-                            return
                         }
                     }
                     break

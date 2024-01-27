@@ -1,17 +1,7 @@
-
-
  const { sck,sck1,getBuffer, tlang, prefix,name } = require('../lib')
  const eco = require('discord-mongoose-economy')
  const ty = eco.connect(mongodb);
  const {Function} = require('../lib')
- /*
-  Function({
-         kingcmd: "economy",
-         infocmd: "daily gold.",
-         kingclass: "economy",
-     },
-     */
-     //---------------------------------------------------------------------------
  Function({
          kingcmd: "daily",
          infocmd: "daily gold.",
@@ -64,7 +54,6 @@
         return await person.reply(` User: @${users.split('@')[0]} \n *@${users.split('@')[0]} lost all 🪙 in wallet.*\n_Now live with that poverty_`,{mentions:[users]})
  }
  )
-    //---------------------------------------------------------------------------
  Function({
     kingcmd: "capacity",
     infocmd: "update capacity.",
@@ -119,8 +108,6 @@ default:
  }
 }
 )
-
-     //---------------------------------------------------------------------------
      Function({
         kingcmd: "deposit",
         infocmd: "deposit gold.",
@@ -212,8 +199,6 @@ return await person.reply( `*Transaction successful of ${value[0]}*`)
 
 }
 )
-
-     //---------------------------------------------------------------------------
      Function({
         kingcmd: "wallet",
         infocmd: "shows wallet.",
@@ -235,8 +220,6 @@ return await person.reply( `*Transaction successful of ${value[0]}*`)
 return await person.reply(`*${person.pushName}'s Bank Wallet:*\n\n_🪙${balance.wallet}_`)
     }
 )
-
-     //---------------------------------------------------------------------------
      Function({
         kingcmd: "give",
         infocmd: "Add money in wallet.",
@@ -335,8 +318,6 @@ default:
 
     }
 )
-
-     //---------------------------------------------------------------------------
      Function({
         kingcmd: "withdraw",
         infocmd: "withdraw money from bank account.",
