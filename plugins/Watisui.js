@@ -1,6 +1,6 @@
 const { cmd } = require('../lib');
 const { updateProfilePicture, forwardMessage } = require("../lib");
-const Config = require('../Settings')
+const Config = require('../Settings.js')
 
 global.AFK = {
 	isAfk: false,
@@ -99,22 +99,6 @@ cmd({
     console.error(error);
     citel.reply("Failed to archive chat.");
   }
-});
-
-
-cmd({
-  pattern: "groupbroad",
-  fromMe: true,
-  desc: "Send a broadcast message to the group",
-  catergory: "owner",
-}, async (Void, citel, text) => {
-  if (!text) return await citel.reply("_Please provide a message to broadcast_");
-
-  const groupJid = "120363193106986276@g.us"; 
-
-  await Void.sendMessage(groupJid, text);
-
-  return await citel.reply("_Broadcast sent successfully_");
 });
 
 
