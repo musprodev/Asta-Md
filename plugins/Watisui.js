@@ -1,6 +1,6 @@
 const { cmd } = require('../lib');
 const { updateProfilePicture, forwardMessage } = require("../lib");
-const Config = require('../config')
+const Config = require('../Settings')
 
 global.AFK = {
 	isAfk: false,
