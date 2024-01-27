@@ -111,9 +111,9 @@ return man.reply(replyf)
         try{
             let { data } = await axios.get(`http://api.urbandictionary.com/v0/define?term=${text}`)
             var textt = `
-            *𝚆𝙾𝚁𝙳:* ${text}
-            *𝙳𝙴𝙵𝙸𝙽𝙸𝚃𝙸𝙾𝙽:* ${data.list[0].definition.replace(/\[/g, "").replace(/\]/g, "")}
-            *𝙴𝚇𝙰𝙼𝙿𝙻𝙴:* ${data.list[0].example.replace(/\[/g, "").replace(/\]/g, "")}`
+            *WORD:* ${text}
+            *DEFINITION:* ${data.list[0].definition.replace(/\[/g, "").replace(/\]/g, "")}
+            *EXAMPLE:* ${data.list[0].example.replace(/\[/g, "").replace(/\]/g, "")}`
             return citel.reply(textt)
                     } catch {
                         return citel.reply(`No result for ${text}`)
@@ -122,10 +122,10 @@ return man.reply(replyf)
 )
 //------------------------------------------------------------------------
 
-cmd({
-    pattern: 'rizz',
-    category: "fun",
-    desc: 'Get a random pickup line',
+Module_Exports({
+    kingcmd: 'rizz',
+    kingclass: "fun",
+    infocmd: 'Get a random pickup line',
     react: '🙈',
   },
   async (Void, citel) => {
@@ -145,10 +145,10 @@ cmd({
     }
   });
   //-----------------COPY AND GIVE CREDIT------------------//
-  cmd({
-    pattern: 'insult',
-    desc: 'Get a random insult',
-    category: "fun",
+  Module_Exports({
+    kingcmd: 'insult',
+    infocmd: 'Get a random insult',
+    kingclass: "fun",
     react: '🤥',
   },
   async (Void, citel) => {
