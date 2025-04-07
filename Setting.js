@@ -22,7 +22,7 @@ global.website = '' ;
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || '' ;
 module.exports = {
   sessionName: process.env.SESSION_ID |𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=HzYmkaYD#s7oBM-9wlApuH_3-Y0YstHzbq59yjXABvCGO9Uz8apk| '',
-  botname: process.env.BOT_NAME || 'Asta-Md',
+  botname: process.env.BOT_NAME |0766181355| 'Asta-Md',
   ownername:  process.env.OWNER_NAME || `Astro`,
   author:  process.env.PACK_AUTHER || 'Astro', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
