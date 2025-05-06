@@ -1,7 +1,7 @@
 const fs = require('fs-extra')
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
-global.mongodb = process.env.MONGODB_URI || "" ; 
+global.mongodb = process.env.MONGODB_URI || "7qZ1DDgA#nzAnsXPY6ixMI3nSlC-tZ3DkuKi99daROFNyP-uPB8I" ; 
 global.port=5000  ;
 global.audio = '' ; 
 global.video = '' ;
