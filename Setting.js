@@ -1,13 +1,13 @@
 const fs = require('fs-extra')
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
-global.mongodb = process.env.MONGODB_URI || "" ; 
+global.owner = process.env.OWNER_NUMBER || '94724660158' ;
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://EX_TeRriFeR:sithum321@cluster0.bcsmchl.mongodb.net/" ; 
 global.port=5000  ;
-global.audio = '' ; 
-global.video = '' ;
+global.audio = 'true' ; 
+global.video = 'true' ;
 global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363169665426586@g.us' ;
-global.email = 'astromedia0010@outlook.com' ; 
+global.email = 'sithumkawshalya631@gmail.com' ; 
 global.github = 'https://github.com/Astropeda/Asta-Md' ;
 global.location = 'Nigeria Lagos' ;
 global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
@@ -21,9 +21,10 @@ global.waUrl = process.env.WAURL ||"",
 global.website = '' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || '' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || '',
-  botname: process.env.BOT_NAME || 'Asta-Md',
-  ownername:  process.env.OWNER_NAME || `Astro`,
+  sessionName: process.env.SESSION_ID || '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=14125400e232a4df
+',
+  botname: process.env.BOT_NAME || 'Queen Taniya',
+  ownername:  process.env.OWNER_NAME || `EX_TeRriFeR`,
   author:  process.env.PACK_AUTHER || 'Astro', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname:  process.env.PACK_NAME || "Asta-Md" , 
@@ -50,7 +51,7 @@ module.exports = {
   VERSION: process.env.VERSION || 'V.4.5.0',
   LANG: process.env.THEME|| 'Asta_Md',
   menu : process.env.MENU || '',
-  WORKTYPE: process.env.WORKTYPE || 'private'
+  WORKTYPE: process.env.WORKTYPE || 'public'
 };
 
 
